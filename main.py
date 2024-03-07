@@ -4,10 +4,10 @@ import pylast
 import csv
 
 
-API_KEY = "4350f02bbfd636b7e6ace4d1c9b35edd"
-API_SECRET = "46a664433cdb484480c7d05c48b8322d"
-username = "randomguy32123"
-password_hash = pylast.md5("!zNzMMkNqN7$&F")
+API_KEY = "API key here"
+API_SECRET = "API secret here"
+username = "username here"
+password_hash = pylast.md5("password here")
 
 network = pylast.LastFMNetwork(
     api_key=API_KEY,
